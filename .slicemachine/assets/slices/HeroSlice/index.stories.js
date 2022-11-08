@@ -1,0 +1,9 @@
+import MyComponent from '../../../../slices/HeroSlice';
+
+export default {
+  title: 'slices/HeroSlice'
+}
+
+
+export const _Default = () => <MyComponent slice={{"variation":"default","version":"sktwi1xtmkfgx8626","items":[{"cta_link":{"link_type":"Web","url":"https://slicemachine.dev"},"cta_text":"sense"}],"primary":{"title":[{"type":"heading1","text":"Arrive","spans":[]}],"description":[{"type":"paragraph","text":"Laborum occaecat aute incididunt. Ea minim ad aliquip commodo. Ex et cillum cillum fugiat cillum ullamco.","spans":[]}],"image":{"dimensions":{"width":900,"height":500},"alt":null,"copyright":null,"url":"https://images.unsplash.com/photo-1593642633279-1796119d5482"}},"slice_type":"hero_slice","id":"_Default"}} />
+_Default.storyName = ''

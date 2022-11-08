@@ -1,0 +1,17 @@
+{
+  "_cts": {
+    "menu": {},
+    "product_page": {},
+    "homepage": {},
+    "page": {}
+  },
+  "slices": {
+    "RelatedProduct": {},
+    "HeroSlice": {
+      "default": {
+        "items": {}
+      }
+    },
+    "ImageGrid": {}
+  }
+}
