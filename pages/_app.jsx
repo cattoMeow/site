@@ -9,14 +9,14 @@ export default function App({ Component, pageProps }) {
     <PrismicProvider
     linkResolver={linkResolver}
       internalLinkComponent={({ href, ...props }) => (
-        <Link href={href}>
-          <a {...props} />
-        </Link>
+        (<Link href={href} {...props}>
+
+        </Link>)
       )}
     >
       <PrismicPreview repositoryName={repositoryName}>
         <Component {...pageProps} />
       </PrismicPreview>
     </PrismicProvider>
-  )
+  );
 }
