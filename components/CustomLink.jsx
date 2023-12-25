@@ -1,4 +1,4 @@
-import { PrismicLink, PrismicRichText } from "@prismicio/react";
+import { PrismicLink } from "@prismicio/react";
 
 const CustomLink = ({link, text, className}) => {
     return (

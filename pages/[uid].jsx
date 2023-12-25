@@ -13,11 +13,11 @@ export default Page
 
 export async function getStaticProps({ params, previewData }) {
   const client = createClient({ previewData });
-
   const page = await client.getByUID("page", params.uid);
-
   return {
-    props: { page },
+    props: { 
+      page 
+    },
   };
 }
 export async function getStaticPath() {
